@@ -1,11 +1,14 @@
+import HeroSection from "../sections/HeroSection"
 
-function App() {
+function LandingPage() {
 
   return (
     <>
-    <h1>yo</h1>
+
+    <HeroSection />
+
     </>
   )
 }
 
-export default App
+export default LandingPage
