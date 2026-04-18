@@ -1,5 +1,7 @@
 import HeroSection from "../sections/HeroSection"
 import PropertyCarouselSection from "../sections/PropertyCarouselSection"
+import SplitCTASection from "../sections/SplitCTASection"
+import SplitCTAimage from "../assets/SplitCTAimage.jpg"
 
 function LandingPage() {
 
@@ -19,7 +21,19 @@ function LandingPage() {
         buttonText="Celotna ponudba"
         bgColor="bg-gradient-to-b from-[#F4EFE7] to-white"
       />
-      
+
+      <SplitCTASection
+        backgroundImage={SplitCTAimage}
+        left={{
+          title: "Iščete nepremičnino?",
+          buttonText: "Vpišite se",
+        }}
+        right={{
+          title: "Brezplačno ovrednotimo\nvašo nepremičnino",
+          buttonText: "Brezplačen posvet",
+        }}
+      />
+
     </>
   )
 }

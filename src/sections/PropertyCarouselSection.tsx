@@ -78,7 +78,7 @@ export default function PropertyCarouselSection({
           </div>
 
           <div className="flex items-center justify-between py-6 px-1">
-            <GoldButton className="rounded-[30px] px-5 py-3.5 text-[14px] leading-[150%]">
+            <GoldButton>
               {buttonText}
             </GoldButton>
 
