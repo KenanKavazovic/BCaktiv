@@ -2,6 +2,7 @@ import HeroSection from "../sections/HeroSection"
 import PropertyCarouselSection from "../sections/PropertyCarouselSection"
 import SplitCTASection from "../sections/SplitCTASection"
 import SplitCTAimage from "../assets/SplitCTAimage.jpg"
+import TestimonialsSection from "../sections/TestimonialsSection"
 
 function LandingPage() {
 
@@ -33,6 +34,8 @@ function LandingPage() {
           buttonText: "Brezplačen posvet",
         }}
       />
+      
+      <TestimonialsSection />
 
     </>
   )

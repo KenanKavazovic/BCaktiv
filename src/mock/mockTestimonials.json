@@ -1,0 +1,32 @@
+{ 
+    "testimonials": [
+        {
+            "id": 1,
+            "title": "Starost in zdravje sta naju prisilila v prodajo! - Iskrena izpoved",
+            "subtitle":
+            "Ta par je moral zaradi zdravja in starosti sprejeti eno najtežjih odločitev v življenju. Prisluhnite njuni zgodbi.",
+            "image": ""
+        },
+        {
+            "id": 2,
+            "title": "Mi na morju, oni so nam pa prodali hišo – TOP izkušnja!",
+            "subtitle":
+            "Medtem, ko smo mi uživali na morju, so oni v ozadju poskrbeli za uspešno prodajo naše nepremičnine – brez zapletov, brez stresa.",
+            "image": ""
+        },
+        {
+            "id": 3,
+            "title": "Starost in zdravje sta naju prisilila v prodajo! - Iskrena izpoved",
+            "subtitle":
+            "Ta par je moral zaradi zdravja in starosti sprejeti eno najtežjih odločitev v življenju. Prisluhnite njuni zgodbi.",
+            "image": ""
+        },
+        {
+            "id": 4,
+            "title": "Starost in zdravje sta naju prisilila v prodajo! - Iskrena izpoved",
+            "subtitle":
+            "Ta par je moral zaradi zdravja in starosti sprejeti eno najtežjih odločitev v življenju. Prisluhnite njuni zgodbi.",
+            "image": ""
+        }
+    ]
+}
