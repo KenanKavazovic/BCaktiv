@@ -9,7 +9,7 @@ export default function HeroSearch() {
         />
       </div>
 
-      <button className="inline-flex h-[50px] items-center justify-center rounded-[30px] bg-[#1A3C8C] px-6 font-dm-sans text-[15px] font-normal leading-[20px] text-white shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] transition-all duration-200 hover:bg-[#16357d] active:bg-[#122d69]">
+      <button className="inline-flex h-[50px] items-center justify-center rounded-[30px] bg-primary-blue px-6 font-dm-sans text-[15px] font-normal leading-[20px] text-white shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] transition-all duration-200 hover:bg-[#16357d] active:bg-[#122d69]">
         Iskanje
       </button>
     </div>

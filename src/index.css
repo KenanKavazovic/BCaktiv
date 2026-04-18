@@ -2,8 +2,14 @@
 
 @theme {
 
-  --color-main-gold-1: #CEAB52;
+  --color-primary-gold: #CEAB52;
+  --color-primary-black: #1D1D20;
+  --color-primary-blue: #1A3C8C;
+
+  --color-secondary-black: #262626;
 
   --font-dm-sans: "DM Sans", sans-serif;
   --font-marcellus: "Marcellus", serif;
+  --font-oxygen: "Oxygen", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
 }

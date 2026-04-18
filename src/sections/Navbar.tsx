@@ -28,7 +28,9 @@ export default function Navbar() {
           <span>041 318 642</span>
         </div>
 
-        <GoldButton>Brezplačen posvet</GoldButton>
+        <GoldButton variant="navbar">
+          Brezplačen posvet
+        </GoldButton>
 
         <div className="flex items-center">
           <img src={Slovenia} alt="Slovenia" className="h-6 w-auto" />
