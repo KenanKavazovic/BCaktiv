@@ -1,0 +1,44 @@
+{
+    "reviews": [
+        {
+            "id": 1,
+            "image": "",
+            "name": "Olivia Bennett",
+            "date": "September 20, 2023",
+            "stars": 4,
+            "text": "Malesuada nunc bibendum mi amet eu magna nascetur ipsum pretium. Mauris iaculis aliquam aliquam ornare felis mi id eu. Purus diam netus consequat cum elementum a vestibulum. Mi nisl sit nunc lobortis gravida orci facilisi ullamcorper."
+        },
+        {
+            "id": 2,
+            "image": "",
+            "name": "Olivia Bennett",
+            "date": "October 20, 2024",
+            "stars": 4,
+            "text": "Malesuada nunc bibendum mi amet eu magna nascetur ipsum pretium. Mauris iaculis aliquam aliquam ornare felis mi id eu. Purus diam netus consequat cum elementum a vestibulum. Mi nisl sit nunc lobortis gravida orci facilisi ullamcorper."
+        },
+        {
+            "id": 3,
+            "image": "",
+            "name": "Olivia Bennett",
+            "date": "November 20, 2025",
+            "stars": 5,
+            "text": "Malesuada nunc bibendum mi amet eu magna nascetur ipsum pretium. Mauris iaculis aliquam aliquam ornare felis mi id eu. Purus diam netus consequat cum elementum a vestibulum. Mi nisl sit nunc lobortis gravida orci facilisi ullamcorper."
+        },
+        {
+            "id": 4,
+            "image": "",
+            "name": "Olivia Bennett",
+            "date": "December 20, 2026",
+            "stars": 3,
+            "text": "Malesuada nunc bibendum mi amet eu magna nascetur ipsum pretium. Mauris iaculis aliquam aliquam ornare felis mi id eu. Purus diam netus consequat cum elementum a vestibulum. Mi nisl sit nunc lobortis gravida orci facilisi ullamcorper."
+        },
+        {
+            "id": 5,
+            "image": "",
+            "name": "Olivia Bennett",
+            "date": "September 20, 2023",
+            "stars": 4,
+            "text": "Malesuada nunc bibendum mi amet eu magna nascetur ipsum pretium. Mauris iaculis aliquam aliquam ornare felis mi id eu. Purus diam netus consequat cum elementum a vestibulum. Mi nisl sit nunc lobortis gravida orci facilisi ullamcorper."
+        }
+    ]
+}

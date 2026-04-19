@@ -3,6 +3,7 @@ import PropertyCarouselSection from "../sections/PropertyCarouselSection"
 import SplitCTASection from "../sections/SplitCTASection"
 import SplitCTAimage from "../assets/SplitCTAimage.jpg"
 import TestimonialsSection from "../sections/TestimonialsSection"
+import ReviewsSection from "../sections/ReviewsSection"
 
 function LandingPage() {
 
@@ -37,6 +38,8 @@ function LandingPage() {
       
       <TestimonialsSection />
 
+      <ReviewsSection />
+      
     </>
   )
 }
