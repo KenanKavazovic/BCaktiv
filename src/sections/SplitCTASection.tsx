@@ -1,4 +1,4 @@
-import GoldButton from "../components/GoldButton";
+import Button from "../components/Button";
 
 type SplitCTAPanel = {
   title: string;
@@ -69,11 +69,11 @@ function SplitCTAContent({
         </h2>
 
         <div className="pt-4">
-          <GoldButton
+          <Button
             onClick={onClick}
           >
             {buttonText}
-          </GoldButton>
+          </Button>
         </div>
       </div>
     </div>

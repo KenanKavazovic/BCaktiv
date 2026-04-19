@@ -1,4 +1,4 @@
-import GoldButton from "../components/GoldButton";
+import Button from "../components/Button";
 import Logo from "../assets/bcaktivlogo.png"
 import Call from "../assets/call.svg"
 import ArrowDown from "../assets/ArrowDown.svg"
@@ -28,9 +28,9 @@ export default function Navbar() {
           <span>041 318 642</span>
         </div>
 
-        <GoldButton variant="navbar">
+        <Button variant="navbar">
           Brezplačen posvet
-        </GoldButton>
+        </Button>
 
         <div className="flex items-center">
           <img src={Slovenia} alt="Slovenia" className="h-6 w-auto" />

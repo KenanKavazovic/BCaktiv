@@ -1,4 +1,4 @@
-import GoldButton from "../components/GoldButton";
+import Button from "../components/Button";
 import mockReviews from "../mock/mockReviews.json";
 import ReviewCard, { type Review } from "../components/ReviewCard";
 
@@ -22,7 +22,7 @@ export default function ReviewsSection() {
           ))}
         </div>
 
-        <GoldButton>Ocenite nas na Googlu</GoldButton>
+        <Button>Ocenite nas na Googlu</Button>
       </div>
     </section>
   );

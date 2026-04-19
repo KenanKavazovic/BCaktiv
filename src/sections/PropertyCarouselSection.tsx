@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import PropertyCard from "../components/PropertyCard";
 import featuredProperties from "../mock/mockProperties.json";
-import GoldButton from "../components/GoldButton";
+import Button from "../components/Button";
 import LeftArrow from "../assets/LeftArrow.svg"
 import RightArrow from "../assets/RightArrow.svg"
 
@@ -78,9 +78,9 @@ export default function PropertyCarouselSection({
           </div>
 
           <div className="flex items-center justify-between py-6 px-1">
-            <GoldButton>
+            <Button>
               {buttonText}
-            </GoldButton>
+            </Button>
 
             <div className="flex items-center gap-8">
               <span className="font-oxygen text-[15.5px] font-normal leading-[24px] text-primary-black">
