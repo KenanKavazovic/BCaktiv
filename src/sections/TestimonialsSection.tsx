@@ -4,7 +4,7 @@ import TestimonialCard from "../components/TestimonialCard";
 export default function TestimonialsSection() {
   return (
     <section className="bg-white px-2.5 py-25">
-      <div className="mx-auto flex w-[1240px] flex-col gap-10">
+      <div className="mx-auto flex max-w-[1240px] flex-col gap-10">
         
         <div className="flex flex-col items-center gap-3.5 px-6 text-center">
           <span className="font-oxygen text-[16px] uppercase leading-[24px] text-primary-gold">
