@@ -1,9 +1,7 @@
 import { useMemo, useState } from "react";
 import PropertyCard from "../components/PropertyCard";
 import featuredProperties from "../mock/mockProperties.json";
-import Button from "../components/Button";
-import LeftArrow from "../assets/LeftArrow.svg"
-import RightArrow from "../assets/RightArrow.svg"
+import CarouselControls from "../components/CarouselControls";
 
 export type Property = {
   id: string;
@@ -77,37 +75,13 @@ export default function PropertyCarouselSection({
             ))}
           </div>
 
-          <div className="flex items-center justify-between py-6 px-1">
-            <Button>
-              {buttonText}
-            </Button>
-
-            <div className="flex items-center gap-8">
-              <span className="font-oxygen text-[15.5px] font-normal leading-[24px] text-primary-black">
-                {page + 1} / {totalPages}
-              </span>
-
-              <div className="gap-4 flex">
-                <button
-                  type="button"
-                  aria-label="Previous"
-                  onClick={goPrev}
-                  className="flex h-[48px] w-[48px] items-center justify-center rounded-full border border-[#00000026] bg-white shadow-[0px_1px_2px_rgba(0,0,0,0.05)] transition hover:bg-[#e5e5e5]"
-                >
-                  <img src={LeftArrow} alt="Previous" className="h-4 w-4" />
-                </button>
-
-                <button
-                  type="button"
-                  aria-label="Next"
-                  onClick={goNext}
-                  className="flex h-[48px] w-[48px] items-center justify-center rounded-full border border-[#00000026] bg-white shadow-[0px_1px_2px_rgba(0,0,0,0.05)] transition hover:bg-[#e5e5e5]"
-                >
-                  <img src={RightArrow} alt="Next" className="h-4 w-4" />
-                </button>
-              </div>
-            </div>
-          </div>
+          <CarouselControls
+            buttonText={buttonText}
+            page={page}
+            totalPages={totalPages}
+            goPrev={goPrev}
+            goNext={goNext}
+          />
         </div>
       </div>
     </section>

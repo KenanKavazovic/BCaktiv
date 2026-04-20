@@ -1,0 +1,52 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "image": "/mockNewsImage1.jpg",
+      "type": "Vlog",
+      "title": "Nasveti nepremičninskega posrednika",
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "date": "20. 03. 2026."
+    },
+    {
+      "id": 2,
+      "image": "/mockNewsImage2.jpg",
+      "type": "Novica",
+      "title": "BCAKTIV odslej na novi lokaciji",
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "date": "10. 01. 2026."
+    },
+    {
+      "id": 3,
+      "image": "/mockNewsImage3.jpg",
+      "type": "Dogodek",
+      "title": "Legalizacija starejših objektov in manj birokracije",
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "date": "11. 12. 2025."
+    },
+    {
+      "id": 4,
+      "image": "/mockNewsImage4.jpg",
+      "type": "Blog",
+      "title": "Property renovation",
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "date": "15. 08. 2025."
+    },
+    {
+      "id": 5,
+      "image": "/mockNewsImage1.jpg",
+      "type": "Novica",
+      "title": "Nasveti nepremičninskega posrednika",
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "date": "12. 08. 2025."
+    },
+    {
+      "id": 6,
+      "image": "/mockNewsImage3.jpg",
+      "type": "Blog",
+      "title": "Nasveti nepremičninskega posrednika",
+      "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "date": "13. 05. 2025."
+    }
+  ]
+}

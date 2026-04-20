@@ -6,6 +6,7 @@ import TestimonialsSection from "../sections/TestimonialsSection"
 import ReviewsSection from "../sections/ReviewsSection"
 import FeaturedProjectSection from "../sections/FeaturedProjectsSection"
 import ClientsSection from "../sections/ClientsSection"
+import NewsSection from "../sections/NewsSection"
 
 function LandingPage() {
 
@@ -45,6 +46,8 @@ function LandingPage() {
       <FeaturedProjectSection />
 
       <ClientsSection />
+
+      <NewsSection />
 
     </>
   )
