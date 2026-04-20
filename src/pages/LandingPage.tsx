@@ -7,6 +7,7 @@ import ReviewsSection from "../sections/ReviewsSection"
 import FeaturedProjectSection from "../sections/FeaturedProjectsSection"
 import ClientsSection from "../sections/ClientsSection"
 import NewsSection from "../sections/NewsSection"
+import Footer from "../sections/Footer"
 
 function LandingPage() {
 
@@ -48,6 +49,8 @@ function LandingPage() {
       <ClientsSection />
 
       <NewsSection />
+
+      <Footer />
 
     </>
   )
