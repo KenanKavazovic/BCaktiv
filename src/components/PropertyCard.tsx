@@ -16,7 +16,6 @@ function formatArea(value: string | null) {
 
 export default function PropertyCard({ property }: PropertyCardProps) {
   const image =
-    property.photo?.[0]?.thumbnail?.grid ||
     property.photo?.[0]?.original ||
     "/mockPropertyImage.png";
 

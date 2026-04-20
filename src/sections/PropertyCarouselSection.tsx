@@ -14,9 +14,6 @@ export type Property = {
   offer_type_text: string;
   photo?: {
     original?: string;
-    thumbnail?: {
-      grid?: string;
-    };
   }[];
 };
 

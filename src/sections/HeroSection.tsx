@@ -23,11 +23,11 @@ export default function HeroSection() {
           <div className="flex w-full max-w-[926px] flex-col gap-10">
             <div className="flex flex-col gap-5">
               
-              <h1 className="font-marcellus text-[64px] leading-[76.8px] tracking-[-0.02em] font-normal text-white text-center">
+              <h1 className="px-30 font-marcellus text-[64px] leading-[76.8px] tracking-[-0.02em] font-normal text-white text-center">
                 Kvaliteta ni naključje
               </h1>
 
-              <p className="mx-auto max-w-2xl font-dm-sans text-[18px] leading-[28px] font-normal text-white/90 text-center">
+              <p className="px-7 mx-auto max-w-2xl font-dm-sans text-[18px] leading-[28px] font-normal text-white text-center">
                 Vodimo kupce do pravih odločitev in prodajalce do najboljših rezultatov.
               </p>
 
@@ -39,9 +39,9 @@ export default function HeroSection() {
 
         <a
           href="#"
-          className="absolute bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-white shadow-lg hover:bg-gray-300 transition"
+          className="absolute bottom-6 right-6 z-50 flex h-[50px] w-[50px] items-center justify-center rounded-[30px] bg-white shadow-lg hover:bg-gray-300 transition"
         >
-          <img src={WAicon} alt="WA" className="h-[30px] w-auto" />
+          <img src={WAicon} alt="WA" className="h-[30px] w-[30px]" />
         </a>
       </div>
     </section>

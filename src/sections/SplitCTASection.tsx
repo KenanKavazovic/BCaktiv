@@ -62,7 +62,7 @@ function SplitCTAContent({
 }: SplitCTAContentProps) {
 
   return (
-    <div className="flex h-full items-center justify-center">
+    <div className="flex h-full items-center justify-center px-16 py-16 pt-15 gap-5">
       <div className="flex w-full flex-col items-center gap-5 px-7.5 py-10 text-center">
         <h2 className="whitespace-pre-line font-marcellus text-[40px] leading-[120%] tracking-[0.01em] text-white">
           {title}

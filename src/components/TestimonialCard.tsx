@@ -10,7 +10,7 @@ export default function TestimonialCard({ title, subtitle, image }: CardProps) {
   const imgSrc = image || "/mockTestimonialImage.png";
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col max-w-[390px] gap-4">
       <div className="relative rounded-[24px] bg-[#F4EFE7] p-4">
         <img
           src={imgSrc}
