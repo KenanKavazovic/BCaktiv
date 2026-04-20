@@ -21,7 +21,7 @@ export default function FeaturedProjectSection() {
                 inline-flex items-center justify-center
                 h-[34px] rounded-[20px] bg-primary-blue px-5 py-0.5
                 font-oxygen text-[14px] font-bold leading-[14px]
-                uppercase text-white
+                uppercase text-primary-white
                 backdrop-blur-[4px]
               "
             >
@@ -30,13 +30,13 @@ export default function FeaturedProjectSection() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <h2 className="font-marcellus text-[56px] leading-[67.2px] text-white">
+            <h2 className="font-marcellus text-[56px] leading-[67.2px] text-primary-white">
               Stanovanjski kompleks
               <br />
               v Ljubljani
             </h2>
 
-            <p className="max-w-[560px] font-dm-sans text-base leading-[150%] text-white">
+            <p className="max-w-[560px] font-dm-sans text-base leading-[150%] text-primary-white">
               Sit mattis eu massa fringilla luctus tincidunt nisi posuere
               consequat. A id leo porttitor imperdiet posuere amet malesuada
               ullamcorper eu. Purus ornare consectetur pretium eget
@@ -52,7 +52,7 @@ export default function FeaturedProjectSection() {
       </div>
 
       <div className="relative flex self-end items-center gap-2.5 rounded-[40px] px-2.5 pr-[5px] py-2.5">
-        <span className="font-dm-sans text-[16px] leading-[150%] text-white">
+        <span className="font-dm-sans text-[16px] leading-[150%] text-primary-white">
           1/10
         </span>
 
@@ -62,7 +62,7 @@ export default function FeaturedProjectSection() {
             aria-label="Previous slide"
             className="
               flex h-[50px] w-[50px] items-center justify-center rounded-full
-              bg-white/80 backdrop-blur-[30px]
+              bg-primary-white/80 backdrop-blur-[30px]
               transition-transform duration-200 active:scale-95
             "
           >

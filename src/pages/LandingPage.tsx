@@ -19,13 +19,13 @@ function LandingPage() {
       <PropertyCarouselSection
         title="Izpostavljeno"
         buttonText="Preveri več"
-        bgColor="bg-white"
+        bgColor="bg-primary-white"
       />
 
       <PropertyCarouselSection
         title="Novo v ponudbi"
         buttonText="Celotna ponudba"
-        bgColor="bg-gradient-to-b from-[#F4EFE7] to-white"
+        bgColor="bg-gradient-to-b from-eggshell-bgr to-primary-white"
       />
 
       <SplitCTASection

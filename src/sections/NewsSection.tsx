@@ -41,11 +41,11 @@ export default function NewsSection() {
   const totalSteps = articles.length - CARDS_PER_PAGE + 1;
 
   return (
-    <section className="bg-white py-15 pl-16">
+    <section className="bg-primary-white py-15 pl-16">
       <div className="flex flex-col items-center">
         <div className="w-full max-w-[1440px]">
           <div className="px-4 py-6">
-            <h2 className="font-marcellus text-[56px] leading-[67.2px] text-black">
+            <h2 className="font-marcellus text-[56px] leading-[67.2px] text-primary-black">
               Novice
             </h2>
           </div>

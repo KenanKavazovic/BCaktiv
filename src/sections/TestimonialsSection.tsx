@@ -3,7 +3,7 @@ import TestimonialCard from "../components/TestimonialCard";
 
 export default function TestimonialsSection() {
   return (
-    <section className="bg-white px-2.5 py-25 gap-2.5">
+    <section className="bg-primary-white px-2.5 py-25 gap-2.5">
       <div className="mx-auto flex max-w-[1240px] items-center flex-col gap-10">
         
         <div className="flex flex-col max-w-[800px] items-center gap-3.5 px-6 text-center">
@@ -11,11 +11,11 @@ export default function TestimonialsSection() {
             MNENJA NAŠIH STRANK
           </span>
 
-          <h2 className="font-marcellus text-[40px] leading-[120%] tracking-[0.01em] text-[#111111]">
+          <h2 className="font-marcellus text-[40px] leading-[120%] tracking-[0.01em] text-black-testimonial-title">
             Agencija vredna zaupanja
           </h2>
 
-          <p className="px-[4.89px] py-4 font-dm-sans text-[16px] text-base leading-[150%] text-primary-black">
+          <p className="px-[4.89px] py-4 font-dm-sans text-[16px] text-base leading-[150%] text-secondary-black">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </p>
         </div>

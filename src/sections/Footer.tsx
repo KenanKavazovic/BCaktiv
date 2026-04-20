@@ -32,7 +32,7 @@ const links: FooterLink[] = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-[#FAF8F5] to-white px-16 pt-15 pb-6">
+    <footer className="bg-gradient-to-b from-footer-bgr to-primary-white px-16 pt-15 pb-6">
       <div className="flex flex-col gap-15">
         <div className="flex justify-center">
           <img
@@ -45,11 +45,11 @@ export default function Footer() {
           <div className="flex w-full max-w-[1440px] items-start gap-15">
             <div className="flex w-[247px] shrink-0 flex-col gap-7.5">
               <div className="flex flex-col gap-2.5">
-                <h3 className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-black">
+                <h3 className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-primary-black">
                   Sedež podjetja
                 </h3>
 
-                <div className="font-poppins text-[16px] font-light leading-[160%] tracking-[0.04em] text-black">
+                <div className="font-poppins text-[16px] font-light leading-[160%] tracking-[0.04em] text-primary-black">
                   <p>BCAKTIV d.o.o.</p>
                   <p>Ljubljanska cesta 82</p>
                   <p>1230 Domžale</p>
@@ -57,21 +57,21 @@ export default function Footer() {
               </div>
 
               <div className="flex flex-col gap-2.5">
-                <h3 className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-black">
+                <h3 className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-primary-black">
                   Kontakt
                 </h3>
 
                 <div className="flex flex-col gap-[6px]">
                   <a
                     href="tel:+386041318642"
-                    className="font-poppins text-[16px] font-light leading-[160%] tracking-[0.04em] text-black underline"
+                    className="font-poppins text-[16px] font-light leading-[160%] tracking-[0.04em] text-primary-black underline"
                   >
                     +386 041 318 642
                   </a>
 
                   <a
                     href="mailto:info@bcaktiv.si"
-                    className="font-poppins text-[16px] font-light leading-[160%] tracking-[0.04em] text-black underline"
+                    className="font-poppins text-[16px] font-light leading-[160%] tracking-[0.04em] text-primary-black underline"
                   >
                     info@bcaktiv.si
                   </a>
@@ -79,11 +79,11 @@ export default function Footer() {
               </div>
 
               <div className="flex flex-col gap-2.5">
-                <h3 className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-black">
+                <h3 className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-primary-black">
                   Sedež podjetja
                 </h3>
 
-                <div className="flex flex-col gap-1 font-poppins text-[16px] font-light leading-[160%] tracking-[0.04em] text-black">
+                <div className="flex flex-col gap-1 font-poppins text-[16px] font-light leading-[160%] tracking-[0.04em] text-primary-black">
                   <p>Sp. Prapreče 4d</p>
                   <p>1225 Lukovica</p>
                 </div>
@@ -104,11 +104,11 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="h-[414px] w-px shrink-0 bg-[#EBEBEB]" />
+            <div className="h-[414px] w-px shrink-0 bg-gray-footer-titles" />
 
             <div className="flex items-start gap-25">
               <div className="flex flex-col gap-4">
-                <span className="font-dm-sans text-[16px] leading-6 text-black/75">
+                <span className="font-dm-sans text-[16px] leading-6 text-primary-black/75">
                   Storitve
                 </span>
 
@@ -116,7 +116,7 @@ export default function Footer() {
                   <a
                     key={item.label}
                     href={item.href}
-                    className="font-dm-sans text-[16px] leading-6 text-black"
+                    className="font-dm-sans text-[16px] leading-6 text-primary-black"
                   >
                     {item.label}
                   </a>
@@ -124,7 +124,7 @@ export default function Footer() {
               </div>
 
               <div className="flex flex-col gap-4">
-                <span className="font-dm-sans text-[16px] leading-6 text-black/75">
+                <span className="font-dm-sans text-[16px] leading-6 text-primary-black/75">
                   Povezave
                 </span>
 
@@ -132,7 +132,7 @@ export default function Footer() {
                   <a
                     key={item.label}
                     href={item.href}
-                    className="font-dm-sans text-[16px] leading-6 text-black"
+                    className="font-dm-sans text-[16px] leading-6 text-primary-black"
                   >
                     {item.label}
                   </a>
@@ -143,17 +143,17 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col gap-5">
-          <div className="mx-auto max-w-[1440px] h-px w-full bg-[#EBEBEB]" />
+          <div className="mx-auto max-w-[1440px] h-px w-full bg-gray-footer-titles" />
 
           <div className="flex justify-center">
             <div className="flex w-full max-w-[1440px] items-center justify-between">
-              <p className="font-poppins text-[15px] font-light leading-[160%] tracking-[0.04em] text-black">
+              <p className="font-poppins text-[15px] font-light leading-[160%] tracking-[0.04em] text-primary-black">
                 © 2025 BCaktiv d.o.o. All rights reserved.
               </p>
 
               <a
                 href="https://100m2.si"
-                className="font-poppins text-[14px] font-light leading-[14px] text-black/50 underline"
+                className="font-poppins text-[14px] font-light leading-[14px] text-primary-black/50 underline"
               >
                 Website by 100kvadratov
               </a>
@@ -162,14 +162,14 @@ export default function Footer() {
                 <div className="flex items-center gap-6">
                   <a
                     href="#"
-                    className="font-dm-sans text-[16px] leading-6 text-black/50"
+                    className="font-dm-sans text-[16px] leading-6 text-primary-black/50"
                   >
                     Splošni pogoji
                   </a>
 
                   <a
                     href="#"
-                    className="font-dm-sans text-[16px] leading-6 text-black/50"
+                    className="font-dm-sans text-[16px] leading-6 text-primary-black/50"
                   >
                     Politika zasebnosti
                   </a>

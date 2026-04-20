@@ -34,7 +34,7 @@ const CARDS_PER_PAGE = 3;
 export default function PropertyCarouselSection({
   title,
   buttonText,
-  bgColor = "bg-white",
+  bgColor = "bg-primary-white",
 }: PropertyCarouselProps) {
   const response = featuredProperties as PropertiesResponse;
   const properties = response.data;
@@ -60,7 +60,7 @@ export default function PropertyCarouselSection({
     <section className={`${bgColor} py-10`}>
       <div className="flex flex-col mx-auto max-w-[1440px] px-16 gap-6">
         <div className="pt-5">
-          <h2 className="font-marcellus text-[40px] font-normal leading-[120%] tracking-[0.01em] text-primary-black">
+          <h2 className="font-marcellus text-[40px] font-normal leading-[120%] tracking-[0.01em] text-secondary-black">
             {title}
           </h2>
         </div>

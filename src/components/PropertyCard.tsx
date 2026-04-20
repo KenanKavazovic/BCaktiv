@@ -28,7 +28,7 @@ export default function PropertyCard({ property }: PropertyCardProps) {
 
   return (
     <article className="w-full">
-      <div className="relative mb-3 h-[220px] overflow-hidden rounded-[16px] bg-white/[0.004] shadow-[0px_4px_6px_-4px_rgba(0,0,0,0.1),0px_10px_15px_-3px_rgba(0,0,0,0.1)]">
+      <div className="relative mb-3 h-[220px] overflow-hidden rounded-[16px] bg-primary-white/[0.004] shadow-[0px_4px_6px_-4px_rgba(0,0,0,0.1),0px_10px_15px_-3px_rgba(0,0,0,0.1)]">
         <img
           src={image}
           alt={property.location}
@@ -48,23 +48,23 @@ export default function PropertyCard({ property }: PropertyCardProps) {
           />
         </button>
 
-        <span className="absolute bottom-4 left-4 inline-flex h-[26px] items-center justify-center rounded-[16px] bg-primary-blue px-2 font-montserrat text-[14px] font-normal leading-[20px] text-white">
+        <span className="absolute bottom-4 left-4 inline-flex h-[26px] items-center justify-center rounded-[16px] bg-primary-blue px-2 font-montserrat text-[14px] font-normal leading-[20px] text-primary-white">
           {property.offer_type_text}
         </span>
       </div>
 
       <div className="flex flex-col gap-1.5 px-4 py-4 pt-3">
         <div className="flex flex-col gap-0.5">
-          <h3 className="font-dm-sans text-[18px] font-semibold leading-[24px] text-secondary-black">
+          <h3 className="font-dm-sans text-[18px] font-semibold leading-[24px] text-black-property-card-text">
             {property.location}
           </h3>
 
-          <p className="font-montserrat text-[15.9px] font-light leading-[24px] text-secondary-black">
+          <p className="font-montserrat text-[15.9px] font-light leading-[24px] text-black-property-card-text">
             {details.join(" | ")}
           </p>
         </div>
 
-        <p className="font-montserrat text-[18px] font-semibold leading-[28px] text-secondary-black">
+        <p className="font-montserrat text-[18px] font-semibold leading-[28px] text-black-property-card-text">
           {property.price_correct_text}
         </p>
       </div>

@@ -18,13 +18,13 @@ const clientsCards: ClientsCard[] = [
 
 export default function ClientsSection() {
   return (
-    <section className="flex flex-col bg-white py-15">
+    <section className="flex flex-col bg-primary-white py-15">
       <div className="flex flex-col items-center gap-4 py-10">
-        <h2 className="text-center font-[Marcellus] text-[40px] leading-[120%] tracking-[0.01em] text-black">
+        <h2 className="text-center font-[Marcellus] text-[40px] leading-[120%] tracking-[0.01em] text-primary-black">
           Vaše življenje. Vaša nepremičnina.
         </h2>
 
-        <p className="px-[9.5px] text-center font-symbol text-[15.8px] leading-6 text-black">
+        <p className="px-[9.5px] text-center font-symbol text-[15.8px] leading-6 text-primary-black">
           Pomagamo vam poiskati najboljšo nepremičnino za vaš življenjski slog.
         </p>
       </div>
@@ -33,7 +33,7 @@ export default function ClientsSection() {
         {clientsCards.map((card) => (
           <button
             key={card.title}
-            className="flex items-center justify-between rounded-[24px] gap-5 overflow-hidden bg-[#F4EFE7] transition-transform duration-200 hover:-translate-y-[2px]"
+            className="flex items-center justify-between rounded-[24px] gap-5 overflow-hidden bg-eggshell-bgr transition-transform duration-200 hover:-translate-y-[2px]"
           >
             <div className="flex items-center gap-5">
               <img
@@ -42,13 +42,13 @@ export default function ClientsSection() {
                 className="h-[70px] w-[70px] shrink-0 object-cover"
               />
 
-              <span className="px-5 font-[Marcellus] text-[28px] leading-none text-black">
+              <span className="px-5 font-[Marcellus] text-[28px] leading-none text-primary-black">
                 {card.title}
               </span>
             </div>
 
             <div className="pr-5">
-              <div className="flex justify-center items-center h-[48px] w-[48px] rounded-[14px] p-2 bg-white">
+              <div className="flex justify-center items-center h-[48px] w-[48px] rounded-[14px] p-2 bg-primary-white">
                 <img src={ArrowRight} alt="" aria-hidden="true" className="h-[24px] w-[24px]" />
               </div>
             </div>

@@ -2,11 +2,30 @@
 
 @theme {
 
-  --color-primary-gold: #CEAB52;
-  --color-primary-black: #1D1D20;
-  --color-primary-blue: #1A3C8C;
+  --color-primary-black: #000000;
+  --color-secondary-black: #1D1D20;
 
-  --color-secondary-black: #262626;
+  --color-primary-white: #FFFFFF;
+
+  --color-primary-gold: #CEAB52;
+  --color-primary-gold-hover: #BFA048;
+  --color-primary-gold-active: #A88F3F;
+
+  --color-primary-blue: #1A3C8C;
+  --color-primary-blue-hover: #16357D;
+  --color-primary-blue-active: #122D69;
+
+  --color-eggshell-bgr: #F4EFE7;
+  --color-footer-bgr: #FAF8F5;
+
+  --color-black-property-card-text: #262626;
+  --color-black-review-text: #1A1A1A;
+  --color-black-testimonial-title: #111111;
+
+  --color-gray-input-text: #919191;
+  --color-gray-footer-titles: #EBEBEB;
+  --color-gray-arrow-btn-hover: #E5E5E5;
+  --color-gray-testimonial-subtitle: #4D4D4D;
 
   --font-dm-sans: "DM Sans", sans-serif;
   --font-marcellus: "Marcellus", serif;

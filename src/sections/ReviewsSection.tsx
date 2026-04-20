@@ -10,9 +10,9 @@ export default function ReviewsSection() {
   const reviews = (mockReviews as MockReviewsData).reviews;
 
   return (
-    <section className="bg-gradient-to-b from-[#F4EFE7] to-white py-25">
+    <section className="bg-gradient-to-b from-eggshell-bgr to-primary-white py-25">
       <div className="flex flex-col items-center gap-15">
-        <h2 className="text-center font-marcellus text-[40px] leading-[120%] tracking-[0.01em] text-black">
+        <h2 className="text-center font-marcellus text-[40px] leading-[120%] tracking-[0.01em] text-primary-black">
           Mnenja naših strank
         </h2>
 

@@ -22,7 +22,7 @@ export default function CarouselControls({
       <Button>{buttonText}</Button>
 
       <div className="flex items-center gap-8">
-        <span className="font-oxygen text-[15.5px] leading-[24px] font-normal text-primary-black">
+        <span className="font-oxygen text-[15.5px] leading-[24px] font-normal text-secondary-black">
           {page + 1} / {totalPages}
         </span>
 
@@ -31,7 +31,7 @@ export default function CarouselControls({
             type="button"
             aria-label="Previous"
             onClick={goPrev}
-            className="flex h-[48px] w-[48px] items-center justify-center rounded-full border border-[#00000026] bg-white shadow-[0px_1px_2px_rgba(0,0,0,0.05)] transition hover:bg-[#e5e5e5]"
+            className="flex h-[48px] w-[48px] items-center justify-center rounded-full border border-[#00000026] bg-primary-white shadow-[0px_1px_2px_rgba(0,0,0,0.05)] transition hover:bg-gray-arrow-btn-hover"
           >
             <img src={LeftArrow} alt="" aria-hidden="true" className="h-4 w-4" />
           </button>
@@ -40,7 +40,7 @@ export default function CarouselControls({
             type="button"
             aria-label="Next"
             onClick={goNext}
-            className="flex h-[48px] w-[48px] items-center justify-center rounded-full border border-[#00000026] bg-white shadow-[0px_1px_2px_rgba(0,0,0,0.05)] transition hover:bg-[#e5e5e5]"
+            className="flex h-[48px] w-[48px] items-center justify-center rounded-full border border-[#00000026] bg-primary-white shadow-[0px_1px_2px_rgba(0,0,0,0.05)] transition hover:bg-gray-arrow-btn-hover"
           >
             <img src={RightArrow} alt="" aria-hidden="true" className="h-4 w-4" />
           </button>
