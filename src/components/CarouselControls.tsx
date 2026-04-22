@@ -18,7 +18,7 @@ export default function CarouselControls({
   goNext,
 }: CarouselControlsProps) {
   return (
-    <div className="flex items-center justify-between px-1 py-6">
+    <div className="flex items-center justify-between px-1 py-7">
       <Button>{buttonText}</Button>
 
       <div className="flex items-center gap-8">
@@ -31,18 +31,18 @@ export default function CarouselControls({
             type="button"
             aria-label="Previous"
             onClick={goPrev}
-            className="flex h-[48px] w-[48px] items-center justify-center rounded-full border border-[#00000026] bg-primary-white shadow-[0px_1px_2px_rgba(0,0,0,0.05)] transition hover:bg-gray-arrow-btn-hover"
+            className="flex h-[48px] w-[48px] items-center justify-center rounded-full border border-[#00000026] bg-primary-white cursor-pointer shadow-[0px_1px_2px_rgba(0,0,0,0.05)] transition hover:bg-gray-arrow-btn-hover"
           >
-            <img src={LeftArrow} alt="" aria-hidden="true" className="h-4 w-4" />
+            <img src={LeftArrow} alt="" aria-hidden="true" className="h-6 w-6" />
           </button>
 
           <button
             type="button"
             aria-label="Next"
             onClick={goNext}
-            className="flex h-[48px] w-[48px] items-center justify-center rounded-full border border-[#00000026] bg-primary-white shadow-[0px_1px_2px_rgba(0,0,0,0.05)] transition hover:bg-gray-arrow-btn-hover"
+            className="flex h-[48px] w-[48px] items-center justify-center rounded-full border border-[#00000026] bg-primary-white cursor-pointer shadow-[0px_1px_2px_rgba(0,0,0,0.05)] transition hover:bg-gray-arrow-btn-hover"
           >
-            <img src={RightArrow} alt="" aria-hidden="true" className="h-4 w-4" />
+            <img src={RightArrow} alt="" aria-hidden="true" className="h-6 w-6" />
           </button>
         </div>
       </div>

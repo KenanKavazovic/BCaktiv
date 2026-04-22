@@ -23,8 +23,8 @@ export default function ReviewCard({ review }: ReviewCardProps) {
   return (
     <article
       className="
-        flex w-[370px] shrink-0 flex-col gap-4 rounded-[16px] border border-[#D9D9D9]
-        bg-primary-white p-6
+        flex w-[370px] shrink-0 flex-col gap-[15px] rounded-[16px] border border-[#D9D9D9]
+        bg-primary-white p-6 pl-[23px]
         shadow-[0px_2px_4px_0px_rgba(0,0,0,0.10),0px_7px_7px_0px_rgba(0,0,0,0.09),0px_16px_9px_0px_rgba(0,0,0,0.05),0px_28px_11px_0px_rgba(0,0,0,0.01),0px_43px_12px_0px_rgba(0,0,0,0)]
       "
     >
@@ -49,7 +49,7 @@ export default function ReviewCard({ review }: ReviewCardProps) {
           <img
             src={GoogleIcon}
             alt="Google"
-            className="h-6 w-6 shrink-0 object-contain"
+            className="h-6 w-6 shrink-0 object-contain mt-2.5"
           />
         </div>
       </div>
@@ -66,7 +66,7 @@ export default function ReviewCard({ review }: ReviewCardProps) {
         ))}
       </div>
 
-      <p className="font-inter text-[16px] leading-5 text-black-review-text">
+      <p className="font-inter text-[16px] leading-5 pt-0.5 text-black-review-text">
         {review.text}
       </p>
     </article>

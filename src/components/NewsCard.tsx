@@ -31,7 +31,7 @@ export default function NewsCard({
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 p-4 min-h-0">
+      <div className="flex flex-col gap-4 p-4  min-h-0">
         <h3 className="line-clamp-3 font-marcellus text-[28px] leading-[140%] text-secondary-black">
           {title}
         </h3>

@@ -58,14 +58,14 @@ export default function PropertyCarouselSection({
 
   return (
     <section className={`${bgColor} py-10`}>
-      <div className="flex flex-col mx-auto max-w-[1440px] px-16 gap-6">
+      <div className="flex flex-col mx-auto max-w-[1440px] min-h-[554px] px-16 gap-6">
         <div className="pt-5">
           <h2 className="font-marcellus text-[40px] font-normal leading-[120%] tracking-[0.01em] text-secondary-black">
             {title}
           </h2>
         </div>
 
-        <div className="gap-0">
+        <div>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 px-1">
             {currentItems.map((property) => (
               <PropertyCard key={property.id} property={property} />

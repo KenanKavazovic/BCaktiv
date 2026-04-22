@@ -5,7 +5,7 @@ import SplitCTAimage from "../assets/SplitCTAimage.jpg"
 import TestimonialsSection from "../sections/TestimonialsSection"
 import ReviewsSection from "../sections/ReviewsSection"
 import FeaturedProjectSection from "../sections/FeaturedProjectsSection"
-import ClientsSection from "../sections/ClientsSection"
+// import ClientsSection from "../sections/ClientsSection"
 import NewsSection from "../sections/NewsSection"
 import Footer from "../sections/Footer"
 
@@ -46,7 +46,7 @@ function LandingPage() {
       
       <FeaturedProjectSection />
 
-      <ClientsSection />
+      {/*<ClientsSection />*/}
 
       <NewsSection />
 

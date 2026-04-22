@@ -31,7 +31,7 @@ export default function Button({
         inline-flex items-center justify-center
         font-dm-sans font-medium
         transition-all duration-200
-        hover:-translate-y-[1px]
+        hover:-translate-y-[1px] cursor-pointer
         active:translate-y-0 active:scale-[0.98]
         ${variants[variant]}
         ${className}

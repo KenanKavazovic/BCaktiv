@@ -28,7 +28,7 @@ export default function PropertyCard({ property }: PropertyCardProps) {
 
   return (
     <article className="w-full">
-      <div className="relative mb-3 h-[220px] overflow-hidden rounded-[16px] bg-primary-white/[0.004] shadow-[0px_4px_6px_-4px_rgba(0,0,0,0.1),0px_10px_15px_-3px_rgba(0,0,0,0.1)]">
+      <div className="relative max-h-[250px] max-w-[424px] overflow-hidden rounded-[16px] bg-primary-white/[0.004] shadow-[0px_4px_6px_-4px_rgba(0,0,0,0.1),0px_10px_15px_-3px_rgba(0,0,0,0.1)]">
         <img
           src={image}
           alt={property.location}
@@ -37,7 +37,7 @@ export default function PropertyCard({ property }: PropertyCardProps) {
 
         <button
           className="group absolute right-4 top-4 flex h-[30px] w-[30px] items-center justify-center
-          transition-transform duration-200
+          transition-transform duration-200 cursor-pointer
           hover:-translate-y-[2px]
           active:translate-y-0"
         >
@@ -48,7 +48,7 @@ export default function PropertyCard({ property }: PropertyCardProps) {
           />
         </button>
 
-        <span className="absolute bottom-4 left-4 inline-flex h-[26px] items-center justify-center rounded-[16px] bg-primary-blue px-2 font-montserrat text-[14px] font-normal leading-[20px] text-primary-white">
+        <span className="absolute bottom-4 left-4 inline-flex h-[26px] w-[72px] items-center justify-center rounded-[16px] bg-primary-blue px-2 font-montserrat text-[14px] font-normal leading-[20px] text-primary-white">
           {property.offer_type_text}
         </span>
       </div>

@@ -41,7 +41,7 @@ export default function NewsSection() {
   const totalSteps = articles.length - CARDS_PER_PAGE + 1;
 
   return (
-    <section className="bg-primary-white py-15 pl-16">
+    <section className="bg-primary-white py-16 pl-15">
       <div className="flex flex-col items-center">
         <div className="w-full max-w-[1440px]">
           <div className="px-4 py-6">
@@ -50,7 +50,7 @@ export default function NewsSection() {
             </h2>
           </div>
 
-          <div className="flex gap-6 pb-1 overflow-hidden">
+          <div className="flex gap-4 pb-1 overflow-hidden">
             {currentItems.map((item) => (
               <NewsCard
                 key={item.id}
@@ -63,7 +63,7 @@ export default function NewsSection() {
             ))}
           </div>
           
-          <div className="py-6 pr-16 pl-1">
+          <div className="pr-16">
             <CarouselControls
               buttonText="Preveri več"
               page={page}
