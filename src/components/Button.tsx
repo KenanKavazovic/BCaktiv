@@ -9,7 +9,7 @@ type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 
 const variants = {
   default:
-    "rounded-[30px] px-5 py-3.5 text-[16px] leading-[120%] tracking-[0.02em] gap-2.5 bg-primary-gold text-primary-white hover:bg-primary-gold-hover hover:shadow-[0_4px_12px_rgba(206,171,82,0.25)] active:bg-primary-gold-active active:shadow-[0_2px_6px_rgba(0,0,0,0.2)]",
+    "rounded-[30px] px-5 py-3.5 text-[16px] leading-[1.1875] tracking-[0.32px] gap-2.5 bg-primary-gold text-primary-white hover:bg-primary-gold-hover hover:shadow-[0_4px_12px_rgba(206,171,82,0.25)] active:bg-primary-gold-active active:shadow-[0_2px_6px_rgba(0,0,0,0.2)]",
 
   navbar:
     "rounded-[20px] px-4 py-1 text-[14px] leading-[150%] tracking-[0] gap-2 bg-primary-gold text-primary-white hover:bg-primary-gold-hover hover:shadow-[0_4px_12px_rgba(206,171,82,0.25)] active:bg-primary-gold-active active:shadow-[0_2px_6px_rgba(0,0,0,0.2)]",

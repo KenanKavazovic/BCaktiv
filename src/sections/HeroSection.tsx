@@ -5,7 +5,7 @@ import WAicon from "../assets/WAicon.svg"
 
 export default function HeroSection() {
   return (
-    <section className="relative h-[726px] w-full overflow-hidden pt-2">
+    <section className="relative h-[726px] w-full overflow-hidden">
 
       <div className="absolute inset-0">
         <img

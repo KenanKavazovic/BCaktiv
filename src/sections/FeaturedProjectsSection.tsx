@@ -29,7 +29,7 @@ export default function FeaturedProjectSection() {
             </span>
           </div>
 
-          <div className="flex flex-col gap-[17px]">
+          <div className="flex flex-col gap-[18px]">
             <h2 className="font-marcellus text-[56px] leading-[67.2px] text-primary-white">
               Hiša - Ljubljana  
               <br />
@@ -48,7 +48,7 @@ export default function FeaturedProjectSection() {
         </div>
 
         <div className="flex items-center gap-[15px] pt-3.5">
-          <Button>Vpišite se</Button>
+          <Button>Izvedi več</Button>
           <Button variant="clear">Preveri vse novogradnje</Button>
         </div>
       </div>

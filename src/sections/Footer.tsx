@@ -31,7 +31,7 @@ const links: FooterLink[] = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-footer-bgr to-primary-white px-15 pt-13.5 pb-6">
+    <footer className="bg-gradient-to-b from-footer-bgr to-primary-white px-16 pt-13.5 pb-6">
       <div className="flex flex-col gap-15">
         <div className="flex justify-center">
           <img
@@ -41,13 +41,12 @@ export default function Footer() {
           />
         </div>
         <div className="flex justify-center gap-15">
-          <div className="flex w-full max-w-[1440px] items-start gap-15">
+          <div className="flex w-full max-w-[1440px] items-start gap-[59.5px]">
             <div className="flex w-[300px] shrink-0 flex-col gap-7.5">
               <div className="flex flex-col gap-2.5">
-                <h3 className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-primary-black">
+                <h3 className="font-dm-sans text-[14px] font-bold tracking-[1px] leading-[1.7143] text-primary-black">
                   Pisarna
                 </h3>
-
                 <div className="font-poppins text-[16px] font-light leading-[160%] tracking-[0.04em] text-primary-black">
                   <p>Ljubljanska c. 82</p>
                   <p>1230 Domžale</p>
@@ -55,7 +54,7 @@ export default function Footer() {
               </div>
 
               <div className="flex flex-col gap-2.5">
-                <h3 className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-primary-black">
+                <h3 className="font-dm-sans text-[14px] font-bold tracking-[1px] leading-[1.7143] text-primary-black">
                   Kontakt
                 </h3>
 
@@ -77,7 +76,7 @@ export default function Footer() {
               </div>
 
               <div className="flex flex-col gap-2.5">
-                <h3 className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-primary-black">
+                <h3 className="font-dm-sans text-[14px] font-bold tracking-[1px] leading-[1.7143] text-primary-black">
                   Sedež podjetja
                 </h3>
 
@@ -105,12 +104,11 @@ export default function Footer() {
 
             <div className="h-[414px] w-px shrink-0 bg-gray-footer-titles" />
 
-            <div className="flex items-start gap-25">
+            <div className="flex items-start gap-[101px]">
               <div className="flex flex-col gap-4">
-                <span className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-primary-black">
+                <span className="font-dm-sans text-[14px] font-bold tracking-[1px] leading-[1.7143] text-primary-black">
                   Storitve
                 </span>
-
                 {services.map((item) => (
                   <a
                     key={item.label}
@@ -123,7 +121,7 @@ export default function Footer() {
               </div>
 
               <div className="flex flex-col gap-4 max-w-[200px]">
-                <span className="font-dm-sans text-[14px] font-bold leading-6 tracking-[0.04em] text-primary-black">
+                <span className="font-dm-sans text-[14px] font-bold tracking-[1px] leading-[1.7143] text-primary-black">
                   Povezave
                 </span>
 
@@ -141,7 +139,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-4">
           <div className="mx-auto max-w-[1440px] h-px w-full bg-gray-footer-titles" />
 
           <div className="flex justify-center">
@@ -152,7 +150,7 @@ export default function Footer() {
 
               <a
                 href="https://100m2.si"
-                className="font-poppins text-[14px] font-light leading-[14px] text-primary-black/50"
+                className="font-poppins text-[14px] font-light text-primary-black/50"
               >
                 Website by <span className="underline">100kvadratov</span>
               </a>

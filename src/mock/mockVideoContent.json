@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "image": "/mockVideoThumbnail1.png",
+      "title": "Ali je država pravilno ocenila vašo nepremičnino?"
+    },
+    {
+      "id": 2,
+      "image": "/mockVideoThumbnail2.png",
+      "title": "Koliko vam vzame država pri prodaji nepremičnine?"
+    },
+    {
+      "id": 3,
+      "image": "/mockVideoThumbnail3.png",
+      "title": "💰 Ste vedeli, da morate ob prodaji nepremičnine plačati davek?"
+    },
+    {
+      "id": 4,
+      "image": "/mockVideoThumbnail4.png",
+      "title": "📍 Kupujete stavbno parcelo za gradnjo hiše? 🏡"
+    }
+  ]
+}

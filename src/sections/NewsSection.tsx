@@ -41,7 +41,7 @@ export default function NewsSection() {
   const totalSteps = articles.length - CARDS_PER_PAGE + 1;
 
   return (
-    <section className="bg-primary-white py-16 pl-15">
+    <section className="bg-primary-white py-16 pt-15 pl-16">
       <div className="flex flex-col items-center">
         <div className="w-full max-w-[1440px]">
           <div className="px-4 py-6">
@@ -63,7 +63,7 @@ export default function NewsSection() {
             ))}
           </div>
           
-          <div className="pr-16">
+          <div className="pr-15">
             <CarouselControls
               buttonText="Preveri več"
               page={page}

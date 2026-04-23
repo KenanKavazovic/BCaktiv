@@ -6,7 +6,7 @@ import Slovenia from "../assets/Slovenia.svg"
 
 export default function Navbar() {
   return (
-    <header className="flex items-center justify-between px-10 py-2 bg-gradient-to-b from-primary-black/30 to-transparent">
+    <header className="flex items-center justify-between px-10 py-2 pt-4 bg-gradient-to-b from-primary-black/30 to-transparent">
 
       <div className="flex items-center gap-10">
         <img src={Logo} alt="Logo" className="h-[56px] w-auto" />
