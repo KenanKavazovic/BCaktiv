@@ -68,6 +68,7 @@ export default function NewsSection() {
               buttonText="Preveri več"
               page={page}
               totalPages={totalSteps}
+              verticalPadding="py-[25px]"
               goPrev={goPrev}
               goNext={goNext}
             />

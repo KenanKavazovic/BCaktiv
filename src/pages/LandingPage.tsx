@@ -26,6 +26,7 @@ function LandingPage() {
         title="Novo v ponudbi"
         buttonText="Celotna ponudba"
         bgColor="bg-gradient-to-b from-eggshell-bgr to-primary-white"
+        verticalPadding="py-[35px]"
       />
 
       <SplitCTASection
@@ -35,8 +36,8 @@ function LandingPage() {
           buttonText: "Vpišite se",
         }}
         right={{
-          title: "Brezplačno ovrednotimo\nvašo nepremičnino",
-          buttonText: "Brezplačen posvet",
+          title: "Želite prodati\nnepremičnino?",
+          buttonText: "Izvedi več",
         }}
       />
       

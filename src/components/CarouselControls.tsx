@@ -6,6 +6,7 @@ type CarouselControlsProps = {
   buttonText: string;
   page: number;
   totalPages: number;
+  verticalPadding?: string;
   goPrev: () => void;
   goNext: () => void;
 };
@@ -14,11 +15,12 @@ export default function CarouselControls({
   buttonText,
   page,
   totalPages,
+  verticalPadding = "py-7",
   goPrev,
   goNext,
 }: CarouselControlsProps) {
   return (
-    <div className="flex items-center justify-between px-1 py-7">
+    <div className={`flex items-center justify-between px-1 ${verticalPadding}`}>
       <Button>{buttonText}</Button>
 
       <div className="flex items-center gap-8">

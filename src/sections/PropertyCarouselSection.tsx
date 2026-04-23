@@ -27,6 +27,7 @@ type PropertyCarouselProps = {
   title: string;
   buttonText: string;
   bgColor?: string;
+  verticalPadding?: string;
 };
 
 const CARDS_PER_PAGE = 3;
@@ -35,6 +36,7 @@ export default function PropertyCarouselSection({
   title,
   buttonText,
   bgColor = "bg-primary-white",
+  verticalPadding = "py-10",
 }: PropertyCarouselProps) {
   const response = featuredProperties as PropertiesResponse;
   const properties = response.data;
@@ -57,7 +59,7 @@ export default function PropertyCarouselSection({
   };
 
   return (
-    <section className={`${bgColor} py-10`}>
+    <section className={`${bgColor} ${verticalPadding}`}>
       <div className="flex flex-col mx-auto max-w-[1440px] min-h-[554px] px-16 gap-6">
         <div className="pt-5">
           <h2 className="font-marcellus text-[40px] font-normal leading-[120%] tracking-[0.01em] text-secondary-black">

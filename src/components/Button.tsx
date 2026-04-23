@@ -15,7 +15,7 @@ const variants = {
     "rounded-[20px] px-4 py-1 text-[14px] leading-[150%] tracking-[0] gap-2 bg-primary-gold text-primary-white hover:bg-primary-gold-hover hover:shadow-[0_4px_12px_rgba(206,171,82,0.25)] active:bg-primary-gold-active active:shadow-[0_2px_6px_rgba(0,0,0,0.2)]",
 
   clear:
-    "rounded-[30px] px-5 py-3.5 text-[16px] leading-[120%] tracking-[0.02em] gap-2.5 border border-primary-white/40 bg-transparent text-primary-white hover:bg-transparent hover:border-primary-white/60 active:bg-primary-white/15",
+    "rounded-[30px] px-5 py-3.5 text-[16px] leading-[120%] tracking-[0.02em] gap-2.5 border border-primary-white/40 bg-transparent font-oxygen text-primary-white hover:bg-transparent hover:border-primary-white/60 active:bg-primary-white/15",
 };
 
 export default function Button({

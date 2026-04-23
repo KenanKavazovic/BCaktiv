@@ -31,7 +31,7 @@ const links: FooterLink[] = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-footer-bgr to-primary-white px-16 pt-15 pb-6">
+    <footer className="bg-gradient-to-b from-footer-bgr to-primary-white px-15 pt-13.5 pb-6">
       <div className="flex flex-col gap-15">
         <div className="flex justify-center">
           <img
